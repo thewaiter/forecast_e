@@ -1,0 +1,171 @@
+# Russian translation for the Forecasts module.
+# This file is distributed under the same license as the forecasts package.
+# Lucky <lucky1.data@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: forecasts\n"
+"Report-Msgid-Bugs-To: moksha@bodhilinux.com\n"
+"POT-Creation-Date: 2024-12-16 15:31-0500\n"
+"PO-Revision-Date: 2024-12-18 10:00+0300\n"
+"Last-Translator: R0bur <robursw@gmail.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/e_mod_config.c:46
+msgid "Forecasts Settings"
+msgstr "Настройки прогноза"
+
+#: src/e_mod_config.c:100
+msgid "Display Settings"
+msgstr "Настройки отображения"
+
+#: src/e_mod_config.c:101
+msgid "Poll Time"
+msgstr "Время опроса"
+
+#: src/e_mod_config.c:103
+#, c-format
+msgid "%2.0f minutes"
+msgstr "%2.0f минут(ы)"
+
+#: src/e_mod_config.c:106
+msgid "Forecasts days"
+msgstr "Дни прогноза"
+
+#: src/e_mod_config.c:108
+#, fuzzy, c-format
+msgid "%2.0f days"
+msgstr "%2.0f минут(ы)"
+
+#: src/e_mod_config.c:111
+msgid "Show Description"
+msgstr "Показывать описание"
+
+#: src/e_mod_config.c:113
+msgid "Popup on mouse over"
+msgstr "Всплывающее окно при наведении курсора мыши"
+
+#: src/e_mod_config.c:117
+msgid "Unit Settings"
+msgstr "Настройки элемента"
+
+#: src/e_mod_config.c:119
+msgid "Metric"
+msgstr "Метрические"
+
+#: src/e_mod_config.c:121
+msgid "English"
+msgstr "Английские"
+
+#: src/e_mod_config.c:125
+msgid "Weather location"
+msgstr "Погода в регионе"
+
+#: src/e_mod_config.c:127
+msgid "City name (empty = local) "
+msgstr "Город (пусто = местный) "
+
+#: src/e_mod_config.c:133
+msgid "Custom location label "
+msgstr "Описание местоположения "
+
+#: src/e_mod_config.c:141
+msgid "Language support"
+msgstr "Языковая поддержка"
+
+#: src/e_mod_config.c:143
+msgid "Language code (e.g. sk)    "
+msgstr "Код языка (например, ru)    "
+
+#: src/e_mod_main.c:168
+msgid "Forecasts"
+msgstr "Сводка погоды"
+
+#: src/e_mod_main.c:210
+msgid "Settings"
+msgstr "Настройки"
+
+#: src/e_mod_main.c:755 src/e_mod_main.c:757
+#, c-format
+msgid "%s: Current Conditions"
+msgstr "%s: на данный момент"
+
+#: src/e_mod_main.c:771
+msgid "Feels Like:"
+msgstr "Ощущается как:"
+
+#: src/e_mod_main.c:777
+msgid "Wind Chill:"
+msgstr "Температура ветра:"
+
+#: src/e_mod_main.c:783
+msgid "Wind Speed:"
+msgstr "Скорость ветра:"
+
+#: src/e_mod_main.c:789
+msgid "Humidity:"
+msgstr "Влажность:"
+
+#: src/e_mod_main.c:795
+msgid "Precipitation:"
+msgstr "Осадки:"
+
+#: src/e_mod_main.c:801
+msgid "Visibility:"
+msgstr "Видимость:"
+
+#: src/e_mod_main.c:807
+msgid "Pressure:"
+msgstr "Давление:"
+
+#: src/e_mod_main.c:816
+msgid "Sunrise / Sunset: "
+msgstr "Восход / Закат:"
+
+#: src/e_mod_main.c:843
+msgid "Today"
+msgstr "Сегодня"
+
+#: src/e_mod_main.c:845
+msgid "Tomorrow"
+msgstr "Завтра"
+
+#: src/e_mod_main.c:854
+msgid "High"
+msgstr "Максимум"
+
+#: src/e_mod_main.c:865
+msgid "Low"
+msgstr "Минимум"
+
+#, fuzzy
+#~ msgid "To find the code, go to:"
+#~ msgstr "Чтобы найти код вашего города, зайдите на:"
+
+#~ msgid "Rising"
+#~ msgstr "Повышение"
+
+#~ msgid "Falling"
+#~ msgstr "Понижение"
+
+#~ msgid "Steady"
+#~ msgstr "Устойчиво"
+
+#~ msgid "Forecasts Configuration"
+#~ msgstr "Настройки прогноза погоды"
+
+#~ msgid "Yahoo Forecasts Code"
+#~ msgstr "Код Yahoo Forecasts"
+
+#~ msgid "Yahoo Forecasts Code/US Zip Code"
+#~ msgstr "Код Yahoo Forecasts/Индекс США"
+
+#~ msgid "%s, find your area, and look at the URL"
+#~ msgstr "%s, найдите ваш город, и посмотрите на URL"
+
+#~ msgid "Configuration"
+#~ msgstr "Настройка"

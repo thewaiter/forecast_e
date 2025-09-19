@@ -1,0 +1,171 @@
+# French translation for the Forecasts module.
+# This file is distributed under the same license as the forecasts module.
+# batden <batden@orange.fr>, 2009, 2010.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: forecasts\n"
+"Report-Msgid-Bugs-To: moksha@bodhilinux.com\n"
+"POT-Creation-Date: 2024-12-16 15:31-0500\n"
+"PO-Revision-Date: 2020-07-09 08:37+0200\n"
+"Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
+"Language-Team: FrenchLanguage: fr\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: src/e_mod_config.c:46
+msgid "Forecasts Settings"
+msgstr "Paramétrage des prévisions"
+
+#: src/e_mod_config.c:100
+msgid "Display Settings"
+msgstr "Paramètres d'affichage"
+
+#: src/e_mod_config.c:101
+msgid "Poll Time"
+msgstr "Fréquence d'actualisation"
+
+#: src/e_mod_config.c:103
+#, c-format
+msgid "%2.0f minutes"
+msgstr "%2.0f minutes"
+
+#: src/e_mod_config.c:106
+msgid "Forecasts days"
+msgstr "Prévisions sur"
+
+#: src/e_mod_config.c:108
+#, c-format
+msgid "%2.0f days"
+msgstr "%2.0f jours"
+
+#: src/e_mod_config.c:111
+msgid "Show Description"
+msgstr "Afficher la description"
+
+#: src/e_mod_config.c:113
+msgid "Popup on mouse over"
+msgstr "Pop-up au survol de la souris"
+
+#: src/e_mod_config.c:117
+msgid "Unit Settings"
+msgstr "Système de mesure"
+
+#: src/e_mod_config.c:119
+msgid "Metric"
+msgstr "Métrique"
+
+#: src/e_mod_config.c:121
+msgid "English"
+msgstr "Anglais"
+
+#: src/e_mod_config.c:125
+msgid "Weather location"
+msgstr "Emplacement"
+
+#: src/e_mod_config.c:127
+msgid "City name (empty = local) "
+msgstr "Nom de la ville (vide = local) "
+
+#: src/e_mod_config.c:133
+msgid "Custom location label "
+msgstr "Étiquette d'emplacement personnalisée "
+
+#: src/e_mod_config.c:141
+msgid "Language support"
+msgstr "Support linguistique"
+
+#: src/e_mod_config.c:143
+msgid "Language code (e.g. sk)    "
+msgstr "Code langue (p. ex. sk)    "
+
+#: src/e_mod_main.c:168
+msgid "Forecasts"
+msgstr "Prévisions"
+
+#: src/e_mod_main.c:210
+msgid "Settings"
+msgstr "Configuration"
+
+#: src/e_mod_main.c:755 src/e_mod_main.c:757
+#, c-format
+msgid "%s: Current Conditions"
+msgstr "%s : conditions actuelles"
+
+#: src/e_mod_main.c:771
+msgid "Feels Like:"
+msgstr "Temp. ressentie :"
+
+#: src/e_mod_main.c:777
+msgid "Wind Chill:"
+msgstr "Refroidissement éolien :"
+
+#: src/e_mod_main.c:783
+msgid "Wind Speed:"
+msgstr "Vitesse du vent :"
+
+#: src/e_mod_main.c:789
+msgid "Humidity:"
+msgstr "Humidité :"
+
+#: src/e_mod_main.c:795
+msgid "Precipitation:"
+msgstr "Précipitations :"
+
+#: src/e_mod_main.c:801
+msgid "Visibility:"
+msgstr "Visibilité :"
+
+#: src/e_mod_main.c:807
+msgid "Pressure:"
+msgstr "Pression :"
+
+#: src/e_mod_main.c:816
+msgid "Sunrise / Sunset: "
+msgstr "Lever / Coucher : "
+
+#: src/e_mod_main.c:843
+msgid "Today"
+msgstr "Aujourd'hui"
+
+#: src/e_mod_main.c:845
+msgid "Tomorrow"
+msgstr "Demain"
+
+#: src/e_mod_main.c:854
+msgid "High"
+msgstr "Maximale"
+
+#: src/e_mod_main.c:865
+msgid "Low"
+msgstr "Minimale"
+
+#, fuzzy
+#~ msgid "To find the code, go to:"
+#~ msgstr "Pour trouver le code de votre région, visitez :"
+
+#~ msgid "Rising"
+#~ msgstr "En hausse"
+
+#~ msgid "Falling"
+#~ msgstr "En baisse"
+
+#~ msgid "Steady"
+#~ msgstr "Stable"
+
+#~ msgid "Forecasts Code/US Zip Code"
+#~ msgstr "Code des prévisions/Code ZIP USA"
+
+#~ msgid "%s, find your area, and look at the URL"
+#~ msgstr "%s, trouvez votre région, et regardez l'URL"
+
+#~ msgid "Forecasts Configuration"
+#~ msgstr "Configuration des prévisions"
+
+#~ msgid "Configuration"
+#~ msgstr "Configuration"

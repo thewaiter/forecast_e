@@ -1,0 +1,145 @@
+# Spanish translation for the Forecasts module.
+# This file is distributed under the same license as the forecasts module.
+# DiegoJ <diegojromerolopez@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: forecasts\n"
+"Report-Msgid-Bugs-To: moksha@bodhilinux.com\n"
+"POT-Creation-Date: 2024-12-16 15:31-0500\n"
+"PO-Revision-Date: 2020-06-24 19:41-0500\n"
+"Last-Translator: DiegoJ <diegojromerolopez@gmail.com>\n"
+"Language-Team: Spanish <>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-11-12 04:51+0000\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: src/e_mod_config.c:46
+msgid "Forecasts Settings"
+msgstr "Configuración de Predicciones"
+
+#: src/e_mod_config.c:100
+msgid "Display Settings"
+msgstr "Opciones de pantalla"
+
+#: src/e_mod_config.c:101
+msgid "Poll Time"
+msgstr "Tasa de actualización"
+
+#: src/e_mod_config.c:103
+#, c-format
+msgid "%2.0f minutes"
+msgstr "%2.0f minutos"
+
+#: src/e_mod_config.c:106
+msgid "Forecasts days"
+msgstr "Días pronosticados"
+
+#: src/e_mod_config.c:108
+#, c-format
+msgid "%2.0f days"
+msgstr "%2.0f días"
+
+#: src/e_mod_config.c:111
+msgid "Show Description"
+msgstr "Mostrar descripción"
+
+#: src/e_mod_config.c:113
+msgid "Popup on mouse over"
+msgstr "Mostrar ventana emergente si el ratón está encima"
+
+#: src/e_mod_config.c:117
+msgid "Unit Settings"
+msgstr "Configuración de Unidades"
+
+#: src/e_mod_config.c:119
+msgid "Metric"
+msgstr "Métrico"
+
+#: src/e_mod_config.c:121
+msgid "English"
+msgstr "Inglés"
+
+#: src/e_mod_config.c:125
+msgid "Weather location"
+msgstr "Ubicación del clima"
+
+#: src/e_mod_config.c:127
+msgid "City name (empty = local) "
+msgstr "Nombre de la ciudad (vacío = local) "
+
+#: src/e_mod_config.c:133
+msgid "Custom location label "
+msgstr "Etiqueta de ubicación personalizada "
+
+#: src/e_mod_config.c:141
+msgid "Language support"
+msgstr "Soporte de idioma"
+
+#: src/e_mod_config.c:143
+msgid "Language code (e.g. sk)    "
+msgstr "Código de lenguaje (Ej. es) "
+
+#: src/e_mod_main.c:168
+msgid "Forecasts"
+msgstr "Predicciones meteorológicas"
+
+#: src/e_mod_main.c:210
+msgid "Settings"
+msgstr "Configuración"
+
+#: src/e_mod_main.c:755 src/e_mod_main.c:757
+#, c-format
+msgid "%s: Current Conditions"
+msgstr "%s: Condiciones Actuales"
+
+#: src/e_mod_main.c:771
+msgid "Feels Like:"
+msgstr "Se siente como:"
+
+#: src/e_mod_main.c:777
+msgid "Wind Chill:"
+msgstr "Frío del viento:"
+
+#: src/e_mod_main.c:783
+msgid "Wind Speed:"
+msgstr "Velocidad del viento:"
+
+#: src/e_mod_main.c:789
+msgid "Humidity:"
+msgstr "Humedad:"
+
+#: src/e_mod_main.c:795
+msgid "Precipitation:"
+msgstr "Precipitación:"
+
+#: src/e_mod_main.c:801
+msgid "Visibility:"
+msgstr "Visibilidad:"
+
+#: src/e_mod_main.c:807
+msgid "Pressure:"
+msgstr "Presión:"
+
+#: src/e_mod_main.c:816
+msgid "Sunrise / Sunset: "
+msgstr "Salida de sol / Puesta de sol"
+
+#: src/e_mod_main.c:843
+msgid "Today"
+msgstr "Hoy"
+
+#: src/e_mod_main.c:845
+msgid "Tomorrow"
+msgstr "Mañana"
+
+#: src/e_mod_main.c:854
+msgid "High"
+msgstr "Alta"
+
+#: src/e_mod_main.c:865
+msgid "Low"
+msgstr "Baja"
