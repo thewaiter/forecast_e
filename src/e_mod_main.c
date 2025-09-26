@@ -766,7 +766,7 @@ _fc_popup_content_create(Instance *inst)
 
    snprintf(buf, sizeof(buf), "%s: %d °%c", inst->condition.desc, inst->condition.temp, inst->units.temp);
    ob = e_widget_label_add(evas, buf);
-   e_widget_frametable_object_append(of, ob, 0, row, 2, 1, 0, 1, 1, 0);
+   e_widget_frametable_object_append(of, ob, 0, ++row, 2, 1, 0, 1, 1, 0);
 
    oi = _fc_popup_icon_create(e_comp->evas, inst->condition.code);
    edje_object_size_max_get(oi, &w, &h);
