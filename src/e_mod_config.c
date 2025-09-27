@@ -134,13 +134,13 @@ _basic_create_widgets(E_Config_Dialog *cfd __UNUSED__, Evas *evas,
 
    of = e_widget_frametable_add(evas, D_("Weather location"), 0);
 
-   ob = e_widget_label_add(evas, D_("City name (empty = local) "));
+   ob = e_widget_label_add(evas, D_("City name (empty = local)"));
    e_widget_frametable_object_append(of, ob, 0, 1, 1, 1, 1, 0, 1, 0);
    ob = e_widget_entry_add(cfd->dia->win, &cfdata->code, NULL, NULL, NULL);
    //~ e_widget_size_min_set(ob, 120, 28);
    e_widget_frametable_object_append(of, ob, 1, 1, 1, 1, 1, 1, 1, 1);
 
-   ob = e_widget_label_add(evas, D_("Custom location label "));
+   ob = e_widget_label_add(evas, D_("Custom location label"));
    e_widget_frametable_object_append(of, ob, 0, 2, 1, 1, 1, 0, 1, 0);
    ob = e_widget_entry_add(cfd->dia->win, &cfdata->label, NULL, NULL, NULL);
    //~ e_widget_size_min_set(ob, 120, 28);
@@ -150,7 +150,7 @@ _basic_create_widgets(E_Config_Dialog *cfd __UNUSED__, Evas *evas,
 
    of = e_widget_frametable_add(evas, D_("Language support"), 0);
 
-   ob = e_widget_label_add(evas, D_("Language code (e.g. sk)    "));
+   ob = e_widget_label_add(evas, D_("Language code (e.g. sk)"));
    e_widget_frametable_object_append(of, ob, 0, 1, 1, 1, 1, 0, 1, 0);
    ob = e_widget_entry_add(cfd->dia->win, &cfdata->lang, NULL, NULL, NULL);
    //~ e_widget_size_min_set(ob, 60, 28);
