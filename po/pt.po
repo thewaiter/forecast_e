@@ -1,14 +1,14 @@
-# Portuguese translation for the Forecasts module.
-# This file is distributed under the same license as the forecasts package.
+# Portuguese translation for enlinghtenment forecast2 module.
+# This file is distributed under the same license as the forecast2.0 package.
 # Sérgio Marques <smarquespt@gmail.com>, 2010.
-# Hugo Carvalho <hugokarvalho@hotmail.com>, 2021, 2022.
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2021, 2022, 2023, 2024, 2025.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: forecasts\n"
+"Project-Id-Version: forecast_e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-27 15:31+0200\n"
-"PO-Revision-Date: 2022-09-28 13:05+0100\n"
+"PO-Revision-Date: 2025-09-30 11:42+0100\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <hugokarvalho@hotmail.com>\n"
 "Language: pt\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.7\n"
 
 #: src/e_mod_config.c:44
 msgid "Forecasts Settings"
@@ -65,23 +65,20 @@ msgid "Weather location"
 msgstr "Localização meteorológica"
 
 #: src/e_mod_config.c:137
-#, fuzzy
 msgid "City name (empty = local)"
-msgstr "Nome da cidade (vazio = local) "
+msgstr "Nome da cidade (vazio = local)"
 
 #: src/e_mod_config.c:143
-#, fuzzy
 msgid "Custom location label"
-msgstr "Etiqueta de localização personalizada "
+msgstr "Etiqueta de localização personalizada"
 
 #: src/e_mod_config.c:151
 msgid "Language support"
 msgstr "Suporte de idioma"
 
 #: src/e_mod_config.c:153
-#, fuzzy
 msgid "Language code (e.g. sk)"
-msgstr "Código de idioma (por ex: pt)    "
+msgstr "Código do idioma (por exemplo, pt)"
 
 #: src/e_mod_main.c:168
 msgid "Forecasts"
@@ -98,7 +95,7 @@ msgstr "%s: condições atuais"
 
 #: src/e_mod_main.c:763
 msgid "Updated:"
-msgstr ""
+msgstr "Atualizado:"
 
 #: src/e_mod_main.c:778
 msgid "Feels Like:"
@@ -129,9 +126,8 @@ msgid "Pressure:"
 msgstr "Pressão:"
 
 #: src/e_mod_main.c:823
-#, fuzzy
 msgid "Sunrise / Sunset:"
-msgstr "Nascer do sol / Pôr do sol: "
+msgstr "Nascer do sol / Pôr do sol:"
 
 #: src/e_mod_main.c:850
 msgid "Today"
