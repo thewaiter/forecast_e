@@ -112,6 +112,7 @@ collections {
                size:  10;
                min:   1 1;
                align: 0.5 0.1;
+               //fit: 1 1;
                text_class: "module_large";
                ellipsis: -1;
              }
@@ -172,7 +173,7 @@ collections {
                size:  10;
                min:   1 1;
                align: 0.5 1.0;
-               fit: 1 1; 
+               //fit: 1 1; 
                text_class: "module_normal";
                ellipsis: -1;
              }
