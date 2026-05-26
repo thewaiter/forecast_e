@@ -61,11 +61,11 @@ fc_parse_json(void *data)
    inst->details.wind.speed_km = JSON_ATOI(main, "windspeedKmph");
    inst->details.wind.speed_mi = JSON_ATOI(main, "windspeedMiles");
 
-   json_object *o_updated = json_object_object_get(main, "localObsDateTime");
-   if (!o_updated) goto error;
-   const char *timestamp = json_object_get_string(o_updated);
-   if (!timestamp) goto error;
-   eina_stringshare_replace(&inst->update_at, timestamp);
+   //~ json_object *o_updated = json_object_object_get(main, "localObsDateTime");
+   //~ if (!o_updated) goto error;
+   //~ const char *timestamp = json_object_get_string(o_updated);
+   //~ if (!timestamp) goto error;
+   //~ eina_stringshare_replace(&inst->update_at, timestamp);
 
    if (have_lang)
     {
